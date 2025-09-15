@@ -1,0 +1,994 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Vikas singh Portfolio</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{% static 'assets/img/apple-touch-icon.jpg'  %}" rel="apple-touch-icon">
+  <link href="{% static 'assets/img/apple-touch-icon.jpg'  %}" rel="apple-touch-icon">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css'  %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/bootstrap-icons/bootstrap-icons.css'  %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/glightbox/css/glightbox.min.css'  %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/swiper/swiper-bundle.min.css'  %}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href=" {% static 'assets/css/style.css'  %}" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"><a href=" {% url 'home' %}">Vikas singh</a></h1>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto " href="{% url 'home' %}">HOME</a></li>
+          <li><a class="nav-link scrollto" href="{% url 'about' %}">ABOUT</a></li>
+          <li><a class="nav-link scrollto" href="{% url 'services' %}">SERVICES</a></li>
+          <li><a class="nav-link scrollto " href="{% url 'project'  %}">PROJECTS</a></li>
+          <li><a class="nav-link scrollto " href="{% url 'happiness' %}">HAPPINESS</a></li>
+          <li><a class="nav-link scrollto" href="{% url 'contact' %}"><button type="button"
+                class="btn btn-primary">CONTACT</button></a></li>
+          <li><a class="nav-link scrollto" href="{% url 'login' %}"><button type="button"
+                class="btn btn-danger">LOGIN</button></a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+
+  <!-- ======= SKILL Section ======= -->
+  <section id="services" class="services-mf pt-5 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              SERVICES
+            </h3>
+            <p class="subtitle-a"style="font-weight:800;font-style: oblique; "  >
+              I have a degree in Computer Science Engineering and have been working as a web developer for the past 2
+              years. My primary focus is on Full-stack development.
+            </p>
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="bi bi-briefcase"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Full Stack Developer</h2>
+              <p class="s-description text-center" style="font-style: oblique;">  
+                <!-- style=" text-align: justify;" -->
+                A Full Stack Developer is a versatile professional with expertise in both front-end and back-end technologies. They design, develop, and maintain web applications, ensuring seamless integration between the user interface and server-side logic. Proficient in programming languages such as JavaScript, HTML, CSS, and backend frameworks like Node.js or Django, they possess a well-rounded skill set to handle various aspects of software development. Full Stack Developers collaborate with cross-functional teams, ensuring the successful deployment and maintenance of robust, user-friendly applications. ability  work contributors 
+                
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="bi bi-card-checklist"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title"> Web Design</h2>
+              <p class="s-description text-center" style="font-style: oblique;" >
+                I showcase a versatile skill set and proficiency in a range of technologies essential for creating
+                compelling digital experiences. Proficient in the core web development languages, including HTML5,
+                CSS3, and JavaScript, I ensure that my designs are not only visually appealing but also function
+                seamlessly across various platforms. Leveraging responsive design principles, I utilize media queries
+                and frameworks like Bootstrap to guarantee optimal viewing experiences on different devices. With a
+                keen eye for UI/UX design, I create intuitive and user-friendly interfaces, incorporating wireframing
+                and prototyping techniques.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="bi bi-bar-chart"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Content creator </h2>
+              <p class="s-description text-center" style="font-style: oblique;">
+                The role of a content creator demands a fusion of creative prowess and technical acumen. Strong storytelling skills, the ability to engage diverse audiences, and a keen understanding of platform dynamics are essential. Flexibility and adaptability to evolving trends, coupled with effective time management, enable content creators to consistently produce compelling and relevant material. Successful content creators master the art of building a brand, fostering audience connections, and navigating the dynamic digital landscape.In addition to writing, content creators need a deep understanding  .
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="bi bi-binoculars"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Video Editor</video></h2>
+              <p class="s-description text-center" style="font-style: oblique;" >
+                I highlight a comprehensive skill set tailored for crafting visually captivating and impactful
+                multimedia content. Proficient in industry-standard video editing software such as Adobe Premiere Pro
+                and Final Cut Pro, I bring a creative touch to every project. From meticulous editing to seamless
+                transitions and color grading, I ensure a polished and professional final product.My proficiency
+                extends beyond basic editing, encompassing motion graphics and visual effects when necessary.
+                Utilizing tools like Adobe After Effects, I enhance videos with dynamic elements, adding depth and
+                engaging visual storytelling.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="bi bi-brightness-high"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Graphic Design</h2>
+              <p class="s-description text-center" style="font-style: oblique;" >
+                roficient in industry-standard design software such as Adobe Creative Suite, including Photoshop,
+                Illustrator, and InDesign, I bring a high level of expertise to every project. From conceptualization to execution, my designs prioritize aesthetics, usability, and effective communication.Each entry is accompanied by a detailed description, providing insights into the design process, the objectives addressed, and the techniques employed. I emphasize my ability to adapt my style to meet the unique requirements of different projects, whether it's conveying a corporate identity, crafting a vibrant social media .
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="bi bi-calendar4-week"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Event Manager</h2>
+              <p class="s-description text-center"  style="font-style: oblique;">
+                I present a comprehensive set of skills that underscore my ability to plan, organize, and execute
+                successful events. With a meticulous attention to detail,
+                from logistical arrangements to ensuring a seamless guest experience. My organizational skills are
+                complemented by a strategic mindset, enabling me to navigate challenges and deliver events that align with client objectives.diverse events I've managed, ranging from corporate conferences. Each entry provides insights into my role in conceptualizing and executing the event, emphasizing effective communication, budget management.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- End Services Section -->
+
+  <!-- ======= Portfolio Section ======= -->
+  <section id="work" class="portfolio-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              PROJECT
+            </h3>
+            <P style="font-size: 17px ; color:rgba(8, 0, 0, 0.799);font-weight:1000 ;font-style: oblique; "   >I Have worked on several projects, including e-commerce websites, online booking systems, and mobile
+              apps. Check out my portfolio to see my work.On this Website there is some project that i make it and
+              launch. on my " GITHUB " account there is lot 0f projects that i make it go and check it on github. </P>
+            <div class="line-mf"> </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="{% static 'assets/img/project.1.png'  %}" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <div class="work-img">
+                <img src="{% static 'assets/img/project.1.png'  %}" alt="" class="img-fluid">
+              </div>
+            </a>
+            <div class="work-content">
+              <div class="row">
+                <div class="col-sm-8">
+                  <h2 class="w-title">3-D Web Animation Website Template</h2>
+                  <div class="w-more">
+                    <span class="w-ctegory">View project</span> / <span class="w-date"> HTML/CSS/JS/GASP-ECT</span>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="w-like">
+                    <a href="https://vikassingh5522.github.io/sidcup-family-golf/" target="_blank"> <span class="bi bi-plus-circle"></span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="{% static 'assets/img/project.2.png'   %}" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <div class="work-img">
+                <img src="{% static 'assets/img/project.2.png'   %}" alt="" class="img-fluid">
+              </div>
+            </a>
+            <div class="work-content">
+              <div class="row">
+                <div class="col-sm-8">
+                  <h2 class="w-title">Restaurantly for business Website Template</h2>
+                  <div class="w-more">
+                    <span class="w-ctegory">View project</span> / <span class="w-date"> HTML/CSS/JS/Bootstrap</span>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="w-like">
+                    <a href="https://vikassingh5522.github.io/Ankita-Restaurant-Template/" target="_blank"> <span
+                        class="bi bi-plus-circle"></span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="{% static 'assets/img/sunset.3.png'  %}" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <div class="work-img">
+                <img src="{% static 'assets/img/sunset.3.png'  %}" alt="" class="img-fluid">
+              </div>
+            </a>
+            <div class="work-content">
+              <div class="row">
+                <div class="col-sm-8">
+                  <h2 class="w-title">Sundown-main Animation Website</h2>
+                  <div class="w-more">
+                    <span class="w-ctegory">View project</span> / <span class="w-date">GASP/LOCOMOTIVE/SCROLL</span>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="w-like">
+                    <a href="https://vikassingh5522.github.io/sundown-main/" target="_blank"><span
+                        class="bi bi-plus-circle"></span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="{% static 'assets/img/project.4.png'  %}" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <div class="work-img">
+                <img src="{% static 'assets/img/project.4.png'  %}" alt="" class="img-fluid">
+              </div>
+            </a>
+            <div class="work-content">
+              <div class="row">
+                <div class="col-sm-8">
+                  <h2 class="w-title">Miranda-main websites</h2>
+                  <div class="w-more">
+                    <span class="w-ctegory">View project</span> / <span class="w-date">HTML/CSS/JS</span>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="w-like">
+                    <a href="https://vikas.singh.interns-es.co.in/Miranda-main/index.html" target="_blank"> <span
+                        class="bi bi-plus-circle"></span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="{% static  'assets/img/project5.png'  %}" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <div class="work-img">
+                <img src="{% static 'assets/img/project5.png'  %}" alt="" class="img-fluid">
+              </div>
+            </a>
+            <div class="work-content">
+              <div class="row">
+                <div class="col-sm-8">
+                  <h2 class="w-title">Apple-vision-main 3-D Web </h2>
+                  <div class="w-more">
+                    <span class="w-ctegory">View project</span> / <span
+                      class="w-date">GASP/LOCOMOTIVE/SCROLL</span>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="w-like">
+                    <a href="https://vikas-online.interns-es.co.in/Apple-vision-main/index.html"  target="_blank"> <span
+                        class="bi bi-plus-circle"></span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="{% static 'assets/img/project.6.png'  %}" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <div class="work-img">
+                <img src="{% static 'assets/img/project.6.png'   %}" alt="" class="img-fluid" />
+              </div>
+            </a>
+            <div class="work-content">
+              <div class="row">
+                <div class="col-sm-8">
+                  <h2 class="w-title"> Epic Animated Website</h2>
+                  <div class="w-more">
+                    <span class="w-ctegory">View project</span> / <span class="w-date">js/LOCOMOTIVE/SCROLL</span>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="w-like">
+                    <a href="https://vikas.singh.interns-es.co.in/%20Epic%20Animated%20Website/index.html" target="_blank"> <span class="bi bi-plus-circle"></span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- End Portfolio Section -->
+  <!-- ======= Portfolio Section ======= -->
+  <section id="work" class="portfolio-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="{% static 'assets/img/PROJECT3.png'  %}" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <div class="work-img">
+                <img src="{% static 'assets/img/PROJECT3.png'  %}" alt="" class="img-fluid">
+              </div>
+            </a>
+            <div class="work-content">
+              <div class="row">
+                <div class="col-sm-8">
+                  <h2 class="w-title">QR-code-generator Template</h2>
+                  <div class="w-more">
+                    <span class="w-ctegory">View project</span> / <span class="w-date"> HTML/CSS/JS</span>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="w-like">
+                    <a href="https://vikassingh5522.github.io/Qr_code/"target="_blank"> <span class="bi bi-plus-circle"></span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="{% static 'assets/img/shoes.png'  %}" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <div class="work-img">
+                <img src="{% static 'assets/img/shoes.png'  %}" alt="" class="img-fluid">
+              </div>
+            </a>
+            <div class="work-content">
+              <div class="row">
+                <div class="col-sm-8">
+                  <h2 class="w-title">E-commerce</h2>
+                  <div class="w-more">
+                    <span class="w-ctegory">View project</span> / <span class="w-date"> front-end/HTML/CSS/js</span>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="w-like">
+                    <a href="https://vikas.singh.interns-es.co.in/E-commerce/index.html"target="_blank"> <span
+                        class="bi bi-plus-circle"></span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="{% static 'assets/img/project.8.png'  %}" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <div class="work-img">
+                <img src="{% static 'assets/img/project.8.png'  %}" alt="" class="img-fluid">
+              </div>
+            </a>
+            <div class="work-content">
+              <div class="row">
+                <div class="col-sm-8">
+                  <h2 class="w-title">3-D CYBERFICTION*</h2>
+                  <div class="w-more">
+                    <span class="w-ctegory">View project</span> / <span class="w-date">HTML/CSS/JS</span>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="w-like">
+                    <a href="--------------------"target="_blank"><span
+                        class="bi bi-plus-circle"></span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="{% static ' assets/img/project.9.png'  %}" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <div class="work-img">
+                <img src="{% static 'assets/img/project.9.png'  %}" alt="" class="img-fluid">
+              </div>
+            </a>
+            <div class="work-content">
+              <div class="row">
+                <div class="col-sm-8">
+                  <h2 class="w-title">Flight Tour and Travel Company </h2>
+                  <div class="w-more">
+                    <span class="w-ctegory">View project</span> / <span class="w-date">HTML/CSS/JS</span>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="w-like">
+                    <a href="https://vikassingh5522.github.io/flight/"target="_blank"> <span
+                        class="bi bi-plus-circle"></span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="{% static  'assets/img/game.png'  %}" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <div class="work-img">
+                <img src="{% static 'assets/img/game.png'  %}" alt="" class="img-fluid">
+              </div>
+            </a>
+            <div class="work-content">
+              <div class="row">
+                <div class="col-sm-8">
+                  <h2 class="w-title">Bubble Game </h2>
+                  <div class="w-more">
+                    <span class="w-ctegory">View project</span> / <span
+                      class="w-date">only using js</span>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="w-like">
+                    <a href="https://vikassingh5522.github.io/Bubble-Game/ "target="_blank"> <span
+                        class="bi bi-plus-circle"></span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href=" {% static 'assets/img/youtub.png'  %}" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <div class="work-img">
+                <img src="{% static 'assets/img/youtub.png'  %}" alt="" class="img-fluid">
+              </div>
+            </a>
+            <div class="work-content">
+              <div class="row">
+                <div class="col-sm-8">
+                  <h2 class="w-title">youtube-music-clone</h2>
+                  <div class="w-more">
+                    <span class="w-ctegory">View project</span> / <span class="w-date">JavaScript</span>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="w-like">
+                    <a href="https://vikassingh5522.github.io/you-tube-music/"target="_blank"> <span class="bi bi-plus-circle"></span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Portfolio Section -->
+
+  <!-- ======= Testimonials Section ======= -->
+  <div class="testimonials paralax-mf bg-image" style="background-image: url({% static "assets/img/collage.jpg" %}) ">
+    <div class="overlay-mf"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+
+          <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+            <div class="swiper-wrapper">
+
+              <div class="swiper-slide">
+                <div class="testimonial-box">
+                  <div class="author-test">
+                    <!-- <img src="{% static 'assets/img/testimonial-2.jpg '  %}" alt="" class="rounded-circle b-shadow-a"> -->
+                    <span class="author">vikas singh </span>
+                  </div>
+                  <div class="content-test">
+                    <p class="description lead"
+                      style="color: rgb(234, 227, 227);font-weight: bold; color-scheme: light dark;">
+                      "College thoughts: juggling deadlines like a circus act, friendships evolving in late-night study
+                      sessions, and the constant debate between attending lectures or catching up on much-needed sleep."
+                    </p>
+                  </div>
+                </div>
+              </div> <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-box">
+                  <div class="author-test">
+                    <!-- <img src="{% static 'assets/img/testimonial-4.jpg'  %}" alt="" class="rounded-circle b-shadow-a"> -->
+                    <span class="author"> vikas singh </span>
+                  </div>
+                  <div class="content-test">
+                    <p class="description lead" style="color: rgb(243, 240, 240); font-weight: bold;">
+                      "College thoughts: where procrastination is an art form, Ramen noodles are a gourmet meal, and the
+                      library becomes a second home during exam season."
+                    </p>
+                  </div>
+                </div>
+              </div> <!--End testimonial item -->
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+          <!-- <div id="testimonial-mf" class="owl-carousel owl-theme">
+          
+        </div> -->
+        </div>
+      </div>
+    </div>
+  </div> <!--End Testimonials Section-->
+
+  
+  <!-- ======= Portfolio Section ======= -->
+  <!-- <section id="work" class="portfolio-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                ACHIEVEMENT
+              </h3>
+              <P>I have worked on several projects, including e-commerce websites, online booking systems, and mobile
+                apps. Check out my portfolio to see my work.On this Website there is some project that i make it and
+                launch. on my GITHUB account there is lot 0f projectthat i make it go and check it </P>
+              <div class="line-mf"> </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/project.1.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/project.1.png" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">3-D Web Animation Website Template</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">View project</span> / <span class="w-date"> HTML/CSS/JS/GASP-ECT</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="https://vikas.singh.interns-es.co.in"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/project.2.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/project.2.png" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Restaurantly for business Website Template</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">View project</span> / <span class="w-date"> HTML/CSS/JS/Bootstrap</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="https://vikas.singh.interns-es.co.in/Ankita.Restaurant%20/"> <span
+                          class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/sunset.3.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/sunset.3.png" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Sundown-main Animation Website</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">View project</span> / <span class="w-date">HTML-3/GASP/LOCOMOTIVE/SCROLL</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="https://vikas.singh.interns-es.co.in/sundown-main/"><span
+                          class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/project.4.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/project.4.png" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Starbuck-landing-page </h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">View project</span> / <span class="w-date">HTML/CSS/JS</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="https://vikas.singh.interns-es.co.in/Starbuck-landing-page/"> <span
+                          class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/project5.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/project5.png" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Apple-vision-main 3-D Web </h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">View project</span> / <span
+                        class="w-date">GASP/LOCOMOTIVE/SCROLL-ECT</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="https://vikas.singh.interns-es.co.in/Apple-vision-main/  "> <span
+                          class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/project.6.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/project.6.png" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title"> Epic Animated Website</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">View project</span> / <span class="w-date">js/LOCOMOTIVE/SCROLL-ECT</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>End Portfolio Section -->
+
+    <section id="blog" class="blog-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                HAPPINESS
+              </h3>
+              <p class="subtitle-a">
+                Happiness is the gentle hum of fulfillment echoing through the rhythm of life
+              </p>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a href="https://vikas.singh.interns-es.co.in/Vikas-travlling/vikas.html"><img src="{% static 'assets/img/bike.jpg' %}"
+                    alt="" class="img-fluid"></a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">Travel</h6>
+                  </div>
+                </div>
+                <h3 class="card-title"><a
+                    href="https://vikas.singh.interns-es.co.in/Vikas-travlling/vikas.html" target="_blank">Happiness When I Travel With
+                    MY bike with friends and family in World</a></h3>
+                <p class="card-description">
+                  Happiness envelops me when I embark on global adventures astride my bike, accompanied by the laughter and camaraderie of friends and family. Together, we navigate diverse landscapes, embracing the thrill of the open road. Each journey becomes a tapestry of shared experiences, weaving tightly-knit memories and strengthening the bonds that transcend the confines of ordinary travel.<center>
+                    <p>“Jobs fill your pocket, but adventures fill your soul.”</p>
+                  </center>
+                </p>
+              </div>
+
+              <div class="card-footer">
+                <div class="post-author">
+                  <a href="#">
+                    <img src="{% static 'assets/img/vikas.singh.png'  %}" alt="" class="avatar rounded-circle">
+                    <span class="author">vikas singh</span>
+                  </a>
+                </div>
+                <div class="post-date">
+                  <span class="bi bi-clock"></span> 10 min
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a href="https://www.youtube.com/channel/UCO49usTXPb81b3IOWEtqayw" target="_blank"><img
+                    src="{% static 'assets/img/istockphoto-1401290938-612x612.jpg'  %}" alt="" class="img-fluid"></a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">Editing</h6>
+                  </div>
+                </div>
+                <h3 class="card-title"><a href="">Happiness in
+                    Editing, Gaming amd Innovation new ideas</a></h3>
+                <p class="card-description">
+                  Happiness thrives in the realm of editing, gaming, and innovating new ideas. Each edit refines a story, every game conquers challenges, and innovation births exciting possibilities. In this trinity, joy creativity intertwines with the thrill of bringing fresh perspectives and novel concepts to life.
+
+                  <center><p>"Joy blooms in editing, gaming, innovation."</p></center>
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="post-author">
+                  <a href="#">
+                    <img src="{% static 'assets/img/vikas.singh.png'  %}" alt="" class="avatar rounded-circle">
+                    <span class="author">vikas singh</span>
+                  </a>
+                </div>
+                <div class="post-date">
+                  <span class="bi bi-clock"></span> 10 min
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a href="blog-single.html"><img src="{% static 'assets/img/post-3.jpg'  %}" alt="" class="img-fluid"></a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">EVENT  MANAGEMENT</h6>
+                  </div>
+                </div>
+                <h3 class="card-title"><a href="blog-single.html">Event work sparks pure joy.</a></h3>
+                <p class="card-description"  >
+                  In the exhilarating world of event management, my joy ignites as I seamlessly transform visions into tangible and unforgettable realities. Every meticulous detail becomes a brushstroke, crafting immersive experiences that resonate with the essence of celebration. 
+                              <center>   <p>"Joy in crafting memorable events."</p> </center>
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="post-author">
+                  <a href="#">
+                    <img src="{% static 'assets/img/vikas.singh.png'  %}" alt="" class="avatar rounded-circle">
+                    <span class="author">vikas singh</span>
+                  </a>
+                </div>
+                <div class="post-date">
+                  <span class="bi bi-clock"></span> 10 min
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Blog Section -->
+  <!-- ======= Contact Section ======= -->
+  <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route"
+    style="background-image: url({%  static  " assets/img/overlay-bg.jpg" %})">
+    <div class="overlay-mf"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="contact-mf">
+            <div id="contact" class="box-shadow-full">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="title-box-2">
+                    <h5 class="title-left">
+                      Send Message Us
+                    </h5>
+                  </div>
+                  <div>
+                    
+                    <div class="row">
+                      {% for x in messages %}
+                      <center>
+
+                        {% for x in messages %}
+      
+                        <h5> 
+                        
+                          <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                           <strong style="color:green;">{{x}}</strong>
+                           <button type="button" class="close" data-bs-dismiss="alert" aria-label="Close">
+                             <span aria-hidden="true">&times;</span>
+                           </button>
+                          </div>
+                                            
+                        </h5>
+      
+                        {% endfor %}
+      
+                  </center>
+                      {% endfor %}
+                  </div>  
+        
+                    <form action="{% url 'contact' %}" method="post" role="form" name="contactus_form">
+                      
+                      {% csrf_token %}
+
+                      <div class="row">
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                              required>
+                          </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
+                              required>
+                          </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <input type="text" class="form-control" name="phone" id="subject" placeholder="Phone Number" required maxlength="10"
+                              required>
+                          </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
+                              required>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <textarea class="form-control" name="message" rows="5" placeholder="Message"
+                              required></textarea>
+                          </div>
+                        </div>
+                        <div class="col-md-12 text-center my-3">
+                          <!-- <div class="loading">Loading</div> -->
+                          <div class="error-message"></div>
+                          <div class="sent-message"style=" font-weight:800 ;font-style: oblique;">Your message has been sent. Thank you!</div>
+                        </div>
+                        <div class="col-md-12 text-center">
+                          <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="title-box-2 pt-4 pt-md-0">
+                    <h5 class="title-left">
+                      Get in Touch
+                    </h5>
+                  </div>
+                  <div class="more-info">
+                    <p class="lead" style=" font-weight:500 ;font-style: oblique;">
+                      Ready to elevate your project? As a Full Stack Developer, Web Designer, Content creator, Video Editor, Graphic Designer, and Event Manager, I bring a multifaceted skill set to the table. Let's collaborate and bring your vision to life. Contact me at {vikas.singh66551@gmail.com} and let's discuss your project goals!
+                     </p>
+                     <ul class="list-ico">
+                       <li style=" font-weight:700 ;font-style: oblique;"><span class="bi bi-geo-alt"></span> Pune Maharashtra</li>
+                       <li style=" font-weight:700 ;font-style: oblique;"><span class="bi bi-phone"></span>8208769710</li>
+                       <li style=" font-weight:700 ;font-style: oblique;"><span class="bi bi-envelope"></span > vikas.singh66551@gmail.com</li>
+                     </ul>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="copyright-box">
+            <p class="copyright">&copy; Copyright <strong>Vikassingh</strong>. All Rights Reserved</p>
+            <div class="credits">
+
+              Designed by <a href="https:vikassingh">Vikassingh</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'assets/vendor/purecounter/purecounter_vanilla.js'  %}"></script>
+  <script src="{% static 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js'  %}"></script>
+  <script src="{% static 'assets/vendor/glightbox/js/glightbox.min.js'   %}"></script>
+  <script src="{% static 'assets/vendor/swiper/swiper-bundle.min.js'  %}"></script>
+  <script src="{% static 'assets/vendor/typed.js/typed.umd.js'   %}"></script>
+  <script src="{% static 'assets/vendor/php-email-form/validate.js'  %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'assets/js/main.js'   %}"></script>
+
+</body>
+
+</html>
